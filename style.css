@@ -90,6 +90,16 @@ a:hover {
     right: 0;
 }
 
+.text{
+    display: contents;
+}
+
+.text > p {
+    font-size: 20px;
+    text-align: center;
+    max-width: 600px;
+}
+
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
@@ -656,6 +666,7 @@ a {
 
 .container {
     max-width: 1000px;
+    text-align: -webkit-center;
 }
 
 .hero-bloc-text {
