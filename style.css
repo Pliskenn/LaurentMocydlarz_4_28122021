@@ -682,6 +682,7 @@ p {
 
 q {
     font-size: 16px;
+    color: #000000;
     margin-bottom: 20px;
 }
 
@@ -828,6 +829,11 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
+}
+
+.portfolio-thumb {
+    object-fit: cover;
+    width: 100%;
 }
 
 @media (max-width: 1024px) {
