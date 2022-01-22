@@ -1,0 +1,26 @@
+{
+  "name": "laurentmocydlarz_4_28122021",
+  "version": "1.0.0",
+  "description": "Projet 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pliskenn/LaurentMocydlarz_4_28122021.git"
+  },
+  "keywords": [
+    "Projet",
+    "4"
+  ],
+  "author": "Laurent Mocydlarz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pliskenn/LaurentMocydlarz_4_28122021/issues"
+  },
+  "homepage": "https://github.com/Pliskenn/LaurentMocydlarz_4_28122021#readme",
+  "dependencies": {
+    "bootstrap": "^3.4.1"
+  }
+}
