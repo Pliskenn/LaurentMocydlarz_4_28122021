@@ -894,7 +894,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
     }
-}
 
 @media (max-width: 767px) {
     .page-container {
