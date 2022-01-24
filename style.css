@@ -831,6 +831,18 @@ h4 {
     background-image: url("img/image-de-presentation.webp");
 }
 
+.text-presentation {
+    justify-content: center;
+    display: flex;
+}
+
+.text-presentation > p {
+
+    font-size: 25px;
+    max-width: 600px;
+    display: contents;
+}
+
 .portfolio-thumb {
     object-fit: cover;
     width: 100%;
