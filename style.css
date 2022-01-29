@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.webp");
+    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -269,7 +269,7 @@ a:hover {
 }
 
 .voffset-lg {
-    margin-top: 30px;
+    margin-top: 80px;
 }
 
 .row-no-gutters {
@@ -677,13 +677,7 @@ a {
 }
 
 p {
-    font-size: 13px;
-}
-
-q {
-    font-size: 16px;
-    color: #000000;
-    margin-bottom: 20px;
+    font-size: 11px;
 }
 
 .tight-width-whitespace {
@@ -777,20 +771,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #97380C;
+    background-color: #F3976C;
 }
 
 .tc-white {
-    color: #FFFFFF!important;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
-    background: #97380C;
+    background: #F3976C;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #97380C!important;
+    background: #c27956!important;
     color: #FFFFFF!important;
 }
 
@@ -803,11 +797,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #97380C!important;
+    color: #F3976C!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #97380C!important;
+    color: #c27956!important;
 }
 
 .icon-dark-slate-blue {
@@ -816,36 +810,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.webp");
+    background-image: url("img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.webp");
+    background-image: url("img/lines-h2-bg.png");
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.webp");
+    background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.webp");
-}
-
-.text-presentation {
-    justify-content: center;
-    display: flex;
-}
-
-.text-presentation > p {
-
-    font-size: 25px;
-    max-width: 600px;
-    display: contents;
-}
-
-.portfolio-thumb {
-    object-fit: cover;
-    width: 100%;
+    background-image: url("img/image-de-presentation.bmp");
 }
 
 @media (max-width: 1024px) {
@@ -871,13 +848,13 @@ h4 {
     }
 }
 
-@media only screen and (max-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -895,7 +872,9 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-
+    .bloc {
+        padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -905,7 +884,10 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
+        padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);
     }
+}
 
 @media (max-width: 767px) {
     .page-container {
@@ -1028,7 +1010,6 @@ h4 {
     .voffset-lg {
         margin-top: 30px;
     }
-
     form {
         padding: 5px;
     }
